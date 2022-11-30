@@ -1,0 +1,32 @@
+*{
+    margin: 0;   
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --greenPrimary: #003E0E;
+    --greenLight: #008000;
+    --greenDark: #091106;
+}
+
+body{
+    background-color: var(--greenDark);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
